@@ -82,16 +82,16 @@ WSGI_APPLICATION = 'myapp.wsgi.application'
 #     }
 # }
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'a',
-        'USER': 'root',
-        'PASSWORD': 'Aayush888999@',
-        'HOST': 'localhost',  # Change this to your MySQL server's host if needed
-        'PORT': '',           # Leave empty to use the default MySQL port
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'a',
+#         'USER': 'root',
+#         'PASSWORD': 'Aayush888999@',
+#         'HOST': 'localhost',  
+#         'PORT': '',           
+#     }
+# }
 
 
 # Password validation
