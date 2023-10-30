@@ -25,7 +25,8 @@ SECRET_KEY = 'django-insecure-4)lp9qa29r$)$3(1g^lr^ekidd%&*kl*c1gg)o-xuo=rq!qo@=
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+# ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['your-vercel-app-url.vercel.app']
 
 
 # Application definition
@@ -135,3 +136,7 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # Django static
 STATICFILES_DIRS = [BASE_DIR / "static"]
+
+# Media files (uploads)
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
